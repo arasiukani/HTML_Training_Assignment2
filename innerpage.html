@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerPage</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/innerpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <!-- navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+
+        <div class="d-flex align-items-center">
+            <img class="menu-icon" src="images/menu-bar.svg" alt="">
+            <img class="logo" src="images/logo.svg" alt="">
+            <img class="s-logo" src="images/search-icon.svg" alt="">
+            <span class="search">Search</span>
+        </div>
+
+        <div class="d-flex align-items-center">
+            <img class="notification-icon" src="images/notification-icon.svg" alt="">
+            <img class="profile" src="images/profile.png" alt="">
+            <span class="ms-2">John Dave</span>
+            <img class="ms-2" src="images/downward-arrow.svg" alt="">
+        </div>
+
+    </div>
+</nav>
+
+<!-- sidebar -->
+<div class="container-fluid">
+    <div class="row ">
+        <div class=" col col-2 sidebar ">
+            <ul class="nav nav-pills flex-column d-flex m-5">
+                <li class="nav-items ">
+                    <a class="sidebar-eliment2 nav-link gap-4 align-items-center  " href="#">
+                        <img src="images/dashboard-default.svg" alt="" width="30" height="24">
+                         <small class="text-dictionary">Dashboard</small>
+                    </a> 
+                </li>
+                <li class="nav-items1">
+                    <a class="sidebar-eliment1 nav-link gap-4 align-items-center " href="#">
+                        <img class="icon" src="images/graph-active.svg" alt="" width="30" height="24"> <small class="text-danger">Analysis</small>
+                    </a>
+                    
+                </li>
+                <li class="nav-items">
+                    <a class="sidebar-eliment1 nav-link gap-4 align-items-center " href="#">
+                        <img class="icon" src="images/inbox-default.svg" alt="" width="30" height="24"> <small class="text-dictionary">Inbox</small>
+                    </a>
+                    
+                    
+                </li>
+                <li class="nav-items">
+                    <a class="sidebar-eliment1 nav-link gap-4 align-items-center " href="#">
+                        <img class="icon" src="images/clock-default.svg" alt="" width="30" height="24"> <small class="text-dictionary">History</small>
+                    </a>
+                   
+                    
+                </li>
+                <li class="nav-items">
+                    <a class="sidebar-eliment1 nav-link gap-4 align-items-center " href="#">
+                        <img class="icon" src="images/user-default.svg" alt="" width="30" height="24"> <small class="text-dictionary">Users</small>
+                    </a>
+                  
+                </li>
+                <li class="nav-items">
+                    <a class="sidebar-eliment1 nav-link gap-4 align-items-center " href="#">
+                        <img class="icon" src="images/user-default.svg" alt="" width="30" height="24"> <small class="text-dictionary">maintenance</small>
+                    </a>
+                   
+                    
+                </li>
+                <li class="nav-items">
+                    <a class="sidebar-eliment1 nav-link gap-4 align-items-center " href="#">
+                        <img class="icon" src="images/setting-default.svg" alt="" width="30" height="24"> <small class="text-dictionary">Setting</small>
+                    
+                    </a>
+                    
+                </li>
+            </ul>
+        </div>
+
+        <div class="col1 col-10">
+            <div class="heading mt-4">
+                <h3>Analysis</h3>
+            </div>
+            
+            <!-- One Column -->
+
+            <div class="form mt-4">
+                <form>
+                    <div class="form-group">
+                      <label for="Name ">One Column</label>
+                      <input type="email" class="form-control" id="Name" placeholder="Name">
+                    </div>
+                    <div class="form-group mt-3">
+                        <select id="Dropdown" class="form-control">
+                          <option selected>Dropdown
+                          </option>
+                          <option>...</option>
+                        </select>
+                      </div>
+
+            <!-- Two Column -->
+                    <div class="form-group mt-3">
+                      <textarea class="form-control" id="MultipleLine" rows="3">Multiple Line</textarea>
+                    </div>
+
+                    <div class="form-group mt-4">
+                        <label for="Two-Column">Two Column</label>
+                    </div>
+                    <div class="form row">
+                        <div class="col-6 mb-3 ">
+                            <input type="text" class="form-control" id="Name" placeholder="Name" >
+                        </div>
+                        <div class="col-6 mb-3 ">
+                            <input type="text" class="form-control" id="username" placeholder="username" Value="johndoe" >
+                        </div>
+                    </div>
+
+                    <div class="form row">
+                        <div class="col-6 mb-3 ">
+                            <input type="password" class="form-control" id="password" placeholder="password">
+                        </div>
+                        <div class="col-6 mb-3 ">
+                            <select id="Dropdown" class="form-control">
+                                <option  selected>Dropdown</option>
+                                <option >...</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Third Column -->
+
+                    <div class="form row">
+                        <div class="form-group mb-2 mt-3">
+                            <label for="Third-column ">Third Column</label>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <input type="text" class="form-control" id="focus">
+                        </div>
+                        <div class="col-4 mb-3 ">
+                            <input type="password" class="form-control" id="password" placeholder="password">
+                        </div>
+                        <div class="col-4 mb-3">
+                            <input type="text" class="form-control" id="disable" Value="JohnDao " disabled>
+                        </div>
+                    </div>
+
+                    <!-- Four Column -->
+
+                    <div class="form-group mt-4">
+                        <label for="Two-Column">Four Column</label>
+                    </div>
+                    
+                    <div class="form row">
+                        <div class="col-3 mb-3">
+                            <input type="text" class="form-control" id="Designation " placeholder="Designation">
+                        </div>
+                        <div class="col-3 mb-3"><input type="text" class="form-control" id="Name" placeholder="Enter your full Name as per ID "></div>
+                            
+                        <div class="col-3 mb-3"> <input type="text" class="form-control" id="Username" placeholder="Username" Value="JohnDao"></div>
+                        <div class="col-3 mb-3">
+                            <select class="form-control" >
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group mt-4">
+                        <label for="other" class="other" id="other">Other Design Eelments</label>
+                       
+                    </div>
+                    <!-- <div class="form">
+                        <label for="file">Files Upload</label>
+                         <div class="form row">
+                            <button class="filebtn">
+                                <label for="fbtn" class="btn ">
+                                    <input type="file" class="upload" id="file" >
+                                </label>
+                               
+                            </button>
+                            
+                        </div>
+                        
+                     </div> -->
+                     <div class="form-group mt-4">
+                        <label for="files" class="files" id="files">File Upload</label>
+                        <div class="form ">
+                            <label for="fbtn" class="btn btn-primary">
+                                <input type="file" class="upload" id="file">
+                            </label>
+                         </div>
+                    </div>
+
+                    <div class="form-group mt-4  ">
+                        <label for="radiobutton" class="radio" id="radio">Radio Button</label>
+                        <div class="form ">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">option 1</label>
+                               </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">option 2</label>
+                              </div>
+                        </div>
+                       
+                    </div>
+
+                    <div class="form-group mt-4  ">
+                        <label for="Checkbox" class="check" id="check">Checkbox</label>
+                        <div class="form ">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">option 1</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">option 2</label>
+                              </div>
+                        </div>
+                       
+                    </div>
+
+                    <div class="form-group mt-4">
+                        <label for="snackbar" class="snack" id="snack">Snackbar</label>
+
+                    </div>
+                        <div class="form row">
+                            <div class="col-6 mb-3 ">
+                                <!-- <span class="fa-solid fa-circle-exclamation"></span> -->
+                                <input type="text" class="form-control" id="error" placeholder="This is an error message" >
+                            </div>
+                            <div class="col-6 mb-3 ">
+                                <input type="text" class="form-control" id="information"placeholder="This is an information message">
+                            </div>
+                        </div>
+
+                        <div class="form row">
+                            <div class="col-6 mb-3 ">
+                                <input type="text" class="form-control" id="warning" placeholder="This is an warning message" >
+                            </div>
+                            <div class="col-6 mb-3 ">
+                                <input type="text" class="form-control" id="success" placeholder="This is an Success message">
+                            </div>
+                        </div>
+
+                        <div class="form-group mt-4">
+                            <label for="snackbar" class="snack" id="snack">call to action</label>
+                            
+                        </div>
+                        <div class="form row m-2 gap-2">
+                            <button type="button" class="btn btn-primary btn-sm">primary</button>
+                            <button type="button" class="btn btn-secondary btn-sm">secondary</button>
+
+                        </div>
+
+                        <div class="form-group mt-4">
+                            <label for="Tabs" class="Tabs" id="Tabs">Tabs</label>
+                            
+                        </div>
+
+
+                     <div>
+
+                     </div>
+                    
+                  </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

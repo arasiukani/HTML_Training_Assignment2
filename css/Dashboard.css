@@ -41,13 +41,16 @@
     padding-top: 20px;
 }
 
-.sidebar-eliment{
+.nav-items1{
     background-color:  #FFF3F4;
     border-radius: 5px;
     opacity: 1;
     
 }
 
+.text-dictionary{
+    color: #000;
+}
 .heading 
 {
     /* width: 146px; */
@@ -65,8 +68,19 @@
     background: #FAFAFA 0% 0% no-repeat padding-box;
 }
 
-.graph
+.box
 {
+    width: 282px;
+    height: 80px;
+}
+
+.card
+{
+
+    min-height: 120px;
+}
+
+.graph1{
     width: 802px;
     height: 400px;
 }
@@ -86,4 +100,54 @@ height: 398px;
 {
     width: 1440px;
     height: 558px;
+}
+
+.pi
+{
+    min-width: 470px;
+height: 398px;
+}
+
+.circle{
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+.red{
+    background-color:  #C8242F;
+}
+.green
+{
+    background-color: #A2B86C;
+}
+
+.orange{
+    background-color: #F16C20;
+}
+.yellow
+{
+    background-color: yellow;
+}
+h7{
+    text-align: left;
+
+}
+th
+{
+    color:#ADADAD
+}
+
+.status{
+    color: green;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px;
+}
+.paid{
+    background-color: #3CDD5F;
+}
+.failed{
+    background-color:#FF4545 ;
 }

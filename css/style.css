@@ -1,4 +1,4 @@
-
+/* 
 .main
 {
     display: flex;
@@ -44,13 +44,13 @@
     opacity: 1;
     margin-bottom: 20px;
     /* padding: 2px; */
-}
+/* }
 
 .text1
 {
     /* top: 183px;
     left: 905px; */
-    width: 500px;
+    /* width: 500px;
     height: 100px;
 
     text-align: left;
@@ -72,8 +72,8 @@
 
     width: 260px;
     height: 33px;
-    text-align: left;
-    font: normal normal normal 25px/33px Roboto;
+    text-align: left; */
+    /* font: normal normal normal 25px/33px Roboto;
     letter-spacing: 0px;
     color: #3E3E3E;
     opacity: 1;
@@ -144,12 +144,12 @@
     font: normal normal normal 15px/20px Roboto;
     letter-spacing: 0px;
     color: #5c5050;
-    opacity: 1;
+    opacity: 1; */
     /* display: flex; */
     
     
     
- }
+ /* }
  
 .text2
 {
@@ -179,4 +179,49 @@ color: #C8242F;
 opacity: 1;
 margin-top: 30px;
     
+} */
+body{
+    font-family: 'Roboto', sans-serif;
+     background: #FAFAFA;
+    }
+.frt-img{
+    border-radius: 50%;
+    border: 20px solid white;
+    width: 100%;
+    margin-top: 72px;
+    margin-bottom: 72px;
+    background: transparent url('img/Ellipse 2.png') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 31px #0000000A;
+    border: 20px solid #FFFFFF;
+    opacity: 1;
 }
+.logo{
+    margin-top: 105px;
+    width: 50%;
+}
+span{
+    color:#C8242F;
+    font-weight: 900;
+}
+.slogan{
+    margin-top: 20px;
+}
+.login-suggest{
+    margin-top: 30px;
+}
+.login{
+  
+    border-radius: 23px;
+    color: #FAFAFA;
+    width: 138px;
+    height: 45px;
+    }
+
+.fonts{
+   color: #ADADAD ;
+   font-size: 15px;
+}
+#forgt-pwd{
+    margin-left: 15px;
+}
+ 
