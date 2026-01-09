@@ -7,7 +7,7 @@
     
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/innerpage.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  
 </head>
 <body>
     <!-- navbar -->
@@ -15,30 +15,35 @@
 <nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container-fluid">
 
-        <div class="d-flex align-items-center">
+        <div class="rightside sided-flex align-items-center">
             <img class="menu-icon" src="images/menu-bar.svg" alt="">
             <img class="logo" src="images/logo.svg" alt="">
             <img class="s-logo" src="images/search-icon.svg" alt="">
             <span class="search">Search</span>
         </div>
 
-        <div class="d-flex align-items-center">
-            <img class="notification-icon" src="images/notification-icon.svg" alt="">
-            <img class="profile" src="images/profile.png" alt="">
-            <span class="ms-2">John Dave</span>
-            <img class="ms-2" src="images/downward-arrow.svg" alt="">
+        <div class="leftside d-flex align-items-center">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="images/profile.png" alt="">
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <img class="notification-icon" src="images/notification-icon.svg" alt="">
+                <img class="profile" src="images/profile.png" alt="">
+                <span class="ms-2">John Dave</span>
+                <img class="ms-2 arrow" src="images/downward-arrow.svg" alt="">
+              </div>
+             </div>
         </div>
-
-    </div>
 </nav>
 
-<!-- sidebar -->
-<div class="container-fluid">
-    <div class="row ">
-        <div class=" col col-2 sidebar ">
-            <ul class="nav nav-pills flex-column d-flex m-5">
+
+<div class="d-flex main ps-4">
+    
+        <!-- sidebar -->
+        <div class="sidebar flex-shrink-0 m-2 ">
+            <ul class="nav nav-pills flex-column d-flex">
                 <li class="nav-items ">
-                    <a class="sidebar-eliment2 nav-link gap-4 align-items-center  " href="#">
+                    <a class="sidebar-eliment2 nav-link gap-4 align-items-center  " href="Dashboard.html">
                         <img src="images/dashboard-default.svg" alt="" width="30" height="24">
                          <small class="text-dictionary">Dashboard</small>
                     </a> 
@@ -86,14 +91,14 @@
             </ul>
         </div>
 
-        <div class="col1 col-10">
+        <div class="col1">
             <div class="heading mt-4">
                 <h3>Analysis</h3>
             </div>
             
             <!-- One Column -->
 
-            <div class="form mt-4">
+            <div class="form mt-4 bg-white">
                 <form>
                     <div class="form-group">
                       <label for="Name ">One Column</label>
@@ -105,7 +110,7 @@
                           </option>
                           <option>...</option>
                         </select>
-                      </div>
+                    </div>
 
             <!-- Two Column -->
                     <div class="form-group mt-3">
@@ -116,19 +121,19 @@
                         <label for="Two-Column">Two Column</label>
                     </div>
                     <div class="form row">
-                        <div class="col-6 mb-3 ">
+                        <div class="col-md-6 mb-3 ">
                             <input type="text" class="form-control" id="Name" placeholder="Name" >
                         </div>
-                        <div class="col-6 mb-3 ">
+                        <div class="col-md-6 mb-3 ">
                             <input type="text" class="form-control" id="username" placeholder="username" Value="johndoe" >
                         </div>
                     </div>
 
                     <div class="form row">
-                        <div class="col-6 mb-3 ">
+                        <div class="col-md-6 mb-3 ">
                             <input type="password" class="form-control" id="password" placeholder="password">
                         </div>
-                        <div class="col-6 mb-3 ">
+                        <div class="col-md-6 mb-3 ">
                             <select id="Dropdown" class="form-control">
                                 <option  selected>Dropdown</option>
                                 <option >...</option>
@@ -142,13 +147,13 @@
                         <div class="form-group mb-2 mt-3">
                             <label for="Third-column ">Third Column</label>
                         </div>
-                        <div class="col-4 mb-3">
+                        <div class="col-sm-4 mb-3">
                             <input type="text" class="form-control" id="focus">
                         </div>
-                        <div class="col-4 mb-3 ">
+                        <div class="col-sm-4 mb-3 ">
                             <input type="password" class="form-control" id="password" placeholder="password">
                         </div>
-                        <div class="col-4 mb-3">
+                        <div class="col-sm-4 mb-3">
                             <input type="text" class="form-control" id="disable" Value="JohnDao " disabled>
                         </div>
                     </div>
@@ -160,13 +165,13 @@
                     </div>
                     
                     <div class="form row">
-                        <div class="col-3 mb-3">
+                        <div class="col-sm-3 mb-3">
                             <input type="text" class="form-control" id="Designation " placeholder="Designation">
                         </div>
-                        <div class="col-3 mb-3"><input type="text" class="form-control" id="Name" placeholder="Enter your full Name as per ID "></div>
+                        <div class="col-sm-3 mb-3"><input type="text" class="form-control" id="Name" placeholder="Enter your full Name as per ID "></div>
                             
-                        <div class="col-3 mb-3"> <input type="text" class="form-control" id="Username" placeholder="Username" Value="JohnDao"></div>
-                        <div class="col-3 mb-3">
+                        <div class="col-sm-3 mb-3"> <input type="text" class="form-control" id="Username" placeholder="Username" Value="JohnDao"></div>
+                        <div class="col-sm-3 mb-3">
                             <select class="form-control" >
                                 <option></option>
                             </select>
@@ -220,7 +225,7 @@
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                                 <label class="form-check-label" for="inlineCheckbox1">option 1</label>
-                              </div>
+                            </div>
                               <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
                                 <label class="form-check-label" for="inlineCheckbox2">option 2</label>
@@ -233,22 +238,25 @@
                         <label for="snackbar" class="snack" id="snack">Snackbar</label>
 
                     </div>
-                        <div class="form row">
-                            <div class="col-6 mb-3 ">
-                                <!-- <span class="fa-solid fa-circle-exclamation"></span> -->
-                                <input type="text" class="form-control" id="error" placeholder="This is an error message" >
+                        <div class="form row gap-2 m-2 ">
+                            <div class="col-sm-6 snack1 snack">
+                
+                               <img class="eimage" src="images/error-icon.svg" ><span id="error">This is an error message</span>
                             </div>
-                            <div class="col-6 mb-3 ">
-                                <input type="text" class="form-control" id="information"placeholder="This is an information message">
+                            <div class="col-sm-6 snack2 gap-2 snack">
+                                <img class="eimage" src="images/info-icon.svg" ><span id="information">This is an information message</span>
+                                
                             </div>
                         </div>
 
-                        <div class="form row">
-                            <div class="col-6 mb-3 ">
-                                <input type="text" class="form-control" id="warning" placeholder="This is an warning message" >
+                        <div class="form row gap-2 m-2">
+                            <div class="col-sm-6 snack3 snack">
+                                <img class="eimage" src="images/warning-icon.svg" ><span id="warning">This is an warning message</span>
+                                
                             </div>
-                            <div class="col-6 mb-3 ">
-                                <input type="text" class="form-control" id="success" placeholder="This is an Success message">
+                            <div class="col-sm-6 snack4 gap-2 snack">
+                                <img class="eimage" src="images/success-icon.svg" ><span id="success">This is an Success message</span>
+                               
                             </div>
                         </div>
 
@@ -267,16 +275,31 @@
                             
                         </div>
 
+                        <div class="form row m-2" >
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                  <a class="nav-link" aria-current="page" href="#"><span class="text-decoration-underline text-danger">Tab 1</span></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"><span class="text-dictionary"> Tab 2 </span></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"> <span class="text-dictionary">Tab 3</span> </a>
+                                </li>
+                               
+                              </ul>
+                        </div>
 
-                     <div>
-
-                     </div>
+                        <div class="form row m-2">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore perspiciatis iure rem error doloremque sint est consequatur hic laborum a? Provident autem voluptate blanditiis aut libero. Adipisci, vel! Odio, consectetur beatae accusamus ex animi pariatur amet laboriosam eveniet a necessitatibus fugit vel ut. Quod velit voluptatem ullam error quaerat est reprehenderit pariatur distinctio dicta saepe unde, architecto repudiandae tempora dolore, labore quisquam fugit dolorem sed minima dignissimos? Consequuntur magni soluta eligendi veniam, modi quam distinctio accusantium, voluptates ducimus expedita eius officia quae quisquam alias impedit animi error itaque dolorem eum odit id placeat ullam possimus veritatis? At alias optio qui.</p>
+                        </div>
                     
-                  </form>
+                 </form>
             </div>
 
         </div>
-    </div>
+    
+    
 </div>
 
 </body>
